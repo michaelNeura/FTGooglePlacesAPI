@@ -39,5 +39,6 @@
 #import "FTGooglePlacesAPISearchResultItem.h"
 #import "FTGooglePlacesAPIDetailRequest.h"
 #import "FTGooglePlacesAPIDetailResponse.h"
+#import "FTGooglePlacesAPIAutocompleteRequest.h"
 
 #endif
