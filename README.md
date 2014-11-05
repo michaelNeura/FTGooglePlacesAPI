@@ -125,7 +125,7 @@ Available methods are:
 ##Compatibility
 
  - iOS 6+
-    - Mainly because of a dependency on AFNetworking 2.0 (although it should be difficult for you to remove dependency on it)
+    - Mainly because of a dependency on AFNetworking 2.0 (although it shouldn't be difficult for you to remove dependency on it)
  - ARC
 
 ##Contact
@@ -144,6 +144,9 @@ Pull requests are very welcome expecting you follow few rules:
  - Make sure your changes didn't cause any trouble using included example project, unit tests and if appropriate, implement unit tests and example code for your newly added functionality
 
 ##Version history
+
+#### 1.1
+ - Implemented deprecations for usage of `id` and `reference` properties as these has been deprecated by Google as of June 24, 2014. See [Deprecation notice in documentation](https://developers.google.com/places/documentation/details#deprecation) for more info.
 
 #### 1.0
  - First official public release
